@@ -1,0 +1,48 @@
+.product img {
+  width: 286px;
+  height: 286px;
+  border-radius: 8px;
+  margin: 7px;
+}
+.product {
+  width: 300px;
+  height: 550px;
+  border-radius: 8px;
+  border: 1px solid #95a0a7;
+  margin-bottom: 100px;
+  position: relative;
+}
+.product-name {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+.product-seller {
+  font-size: 19px;
+  font-family: "Times New Roman", Times, serif;
+}
+.product-info{
+    margin:  14px;
+    line-height: 1;
+}
+.btn-cart{
+    width: 100%;
+    background-color: blanchedalmond;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    font-size: 17px;
+    font-weight: 500;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-cart:hover{
+    background-color: orange;
+}
+.btn-text{
+    margin-right: 5px;
+}
+
